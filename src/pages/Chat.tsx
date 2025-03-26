@@ -64,14 +64,7 @@ const Chat = () => {
       </div>
       
       {/* Input area */}
-      <div className="p-4 border-t bg-white">
-        <div className="flex gap-2">
-          <Input value={message} onChange={e => setMessage(e.target.value)} onKeyDown={handleKeyDown} placeholder="Type your message..." className="flex-1" />
-          <Button onClick={handleSendMessage} size="icon">
-            <Send className="h-4 w-4" />
-          </Button>
-        </div>
-      </div>
+      
     </div>;
 };
 export default Chat;

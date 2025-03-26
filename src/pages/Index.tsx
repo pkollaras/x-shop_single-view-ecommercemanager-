@@ -1,10 +1,8 @@
-
 import React, { useEffect, useState } from "react";
 import Logo from "../components/Logo";
 import TextCarousel from "../components/TextCarousel";
 import { Button } from "../components/ui/button";
 import { Link } from "react-router-dom";
-
 const Index = () => {
   const [loaded, setLoaded] = useState(false);
 
@@ -42,12 +40,10 @@ const Index = () => {
         </div>
         
         {/* Chat Button */}
-        <Button 
-          className="mt-4 mb-8 animate-fade-in" 
-          style={{ transitionDelay: "600ms" }}
-          asChild
-        >
-          <Link to="/chat">Start Chatting</Link>
+        <Button className="mt-4 mb-8 animate-fade-in" style={{
+        transitionDelay: "600ms"
+      }} asChild>
+          
         </Button>
         
         {/* Footer */}

@@ -57,9 +57,7 @@ const Chat = () => {
       {/* Chat messages area */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {chatHistory.map((chat, index) => <div key={index} className={`flex ${chat.type === 'user' ? 'justify-end' : 'justify-start'}`}>
-            <div className={`max-w-[80%] p-3 rounded-lg ${chat.type === 'user' ? 'bg-primary text-primary-foreground' : 'bg-gray-100 text-gray-800'}`}>
-              {chat.content}
-            </div>
+            
           </div>)}
       </div>
       

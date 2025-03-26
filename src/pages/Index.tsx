@@ -47,7 +47,7 @@ const Index = () => {
           style={{ transitionDelay: "600ms" }}
           asChild
         >
-          <Link to="/chat">Chat</Link>
+          <Link to="/chat">Start Chatting</Link>
         </Button>
         
         {/* Footer */}

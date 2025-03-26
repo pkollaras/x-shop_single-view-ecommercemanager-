@@ -42,9 +42,7 @@ const Chat = () => {
       {/* Header */}
       <div className="bg-white shadow-sm p-4 flex items-center">
         <Link to="/" className="mr-4">
-          <Button variant="ghost" size="icon">
-            <ArrowLeft className="h-5 w-5" />
-          </Button>
+          
         </Link>
         <h1 className="text-xl font-semibold">Ecommerce Chat</h1>
       </div>
